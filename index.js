@@ -1,11 +1,19 @@
 // This one will be a little tricky. So check out this overview first: https://www.youtube.com/watch?v=sJ-c3BA-Ypo
 
 // 1. Create a variable to store the singleton instance of the bank branch. "bankBranchInstance"
+const bankBranchInstance = (''); 
 
 // 2. Define a class called `BankBranch` for managing branch information.
+class BankBranch{
+    //    - Create a constructor that takes `branchInfo` as a parameter.
+    constroctor(branchInfo){
+       bankBranchInstance === null? true : false;  
+    }
+  bankBranchInstancebank = bankBranchInstance === null? new BankBranch(branchInfo) : bankBranchInstance; 
+}
+console.log(bankBranchInstance? "New instance created" : "Exsisting Instance used");  
 
-// 3. In the `BankBranch` class:
-//    - Create a constructor that takes `branchInfo` as a parameter.
+// 3. In the `BankBranch` class:`
 //    - Inside the constructor, check if the `bankBranchInstance` variable is null (indicating no instance exists).
 //    - If `bankBranchInstance` is null, create a new instance with the provided `branchInfo` and assign it to `bankBranchInstance`.
 //    - Return the `bankBranchInstance` whether it's newly created or existing.
