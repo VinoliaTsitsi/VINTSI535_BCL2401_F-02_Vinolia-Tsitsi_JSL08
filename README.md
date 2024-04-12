@@ -27,13 +27,6 @@ Design patterns like Singleton, Factory, and Observer can significantly improve 
 
 1. Ensure that your code includes the necessary modifications to meet the challenge requirements.
 2. Your GitHub repository should contain the updated code files.
-
-## How We'll Assess Your Work:
-
-1. We will review your GitHub repository to ensure that it contains the updated code files.
-2. We will assess the modifications made to the code to verify that they effectively meet the challenge requirements.
-3. We will consider the commit history and meaningful commit messages to evaluate your coding process.
-
-This challenge will test your ability to create a function with the Singleton Pattern. Woohoo! Your first design pattern!
+Singleton Pattern.!
 
 
