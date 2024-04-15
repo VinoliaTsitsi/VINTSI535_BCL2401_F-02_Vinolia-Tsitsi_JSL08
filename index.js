@@ -1,12 +1,12 @@
-// 1. Create a variable to store the singleton instance of the bank branch. "bankBranchInstance"
+
 let bankBranchInstance = null; 
-//Define a class named BankBranch
+
 class BankBranch{
-  //Define a constructor method that takes 'branchInfo' as a parameter
+ 
     constructor(branchInfo){
-      //Check if 'bankBranchInstance' does not exist
+      
       if (!bankBranchInstance) {
-        //if not, assign 'the branchInfo'parameter tp the 'branchInfo' property of the current instance. 
+       
         this.branchInfo = branchInfo; 
         bankBranchInstance = this; 
       } 
